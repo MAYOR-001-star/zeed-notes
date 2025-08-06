@@ -10,7 +10,10 @@ function App() {
       primary: {
         main: '#fefefe'
       },
-      secondary: purple
+      secondary: purple,
+      // secondary:{
+      //   main: purple[500]
+      // },
     },
     typography: {
       fontFamily: 'Quicksand',
