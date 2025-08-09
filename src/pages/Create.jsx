@@ -38,9 +38,6 @@ export default function Create() {
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({ title, details, category})
       }).then(()=> navigate('/'))
-  // .then(res => res.json())
-  // .then(data => console.log(data))
-  // .catch(err => console.error(err));
 
       setTimeout(() => {
         setTitle('');
